@@ -39,7 +39,7 @@ npm i sass
 
 #### 6.初始化项目
 
-###### (1)把 css 文件改成 scss
+###### (1)把 css 文件改成 module.scss
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/bf9b42da-bd4d-454a-8ace-76118ece4d14)
 
