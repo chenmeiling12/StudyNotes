@@ -12,6 +12,12 @@
 npm install -g create-react-app
 ```
 
+注意：mac 系统全局安装可能会报以下错误
+
+解决方法：先执行 `sudo chown -R $USER /usr/local/`
+
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/9364332a-8e30-4539-876d-b63a08b94d90)
+
 #### 3.创建 react+ts 项目
 
 ```
