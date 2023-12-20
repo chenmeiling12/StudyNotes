@@ -65,7 +65,7 @@ useEffect 用于处理组件中的 effect，通常用于请求数据，事件处
 
 ###### 注意：只有依赖值发生变化时，才会执行 callback，即使组件更新，依赖值没变的话依旧不会执行 callback。
 
-#####（4）返回函数：useEffect(() => {return () => {}},[依赖项])}
+##### （4）返回函数：useEffect(() => {return () => {}},[依赖项])}
 
 ##### 作用：初次渲染不会执行 return 函数
 
@@ -85,8 +85,7 @@ useEffect 只能是一个同步函数，不能使用 async
 
 #### 页面与逻辑分开
 
-在当前页面的文件夹下新建一个 hook.ts 文件
+在当前文件夹下新建一个 hook.ts 逻辑文件和 index.tsx 页面文件
 
-![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/a339800a-ea01-460d-b1e2-3543e56b60cc)
-
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/54e1dcb7-c35c-413e-8f9e-3eeae224a82e)
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/e65553f2-0145-4c65-b97f-697ca83a5c82)
