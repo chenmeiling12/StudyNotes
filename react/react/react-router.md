@@ -54,7 +54,7 @@ BrowserRoute(HTML5 的 history API)，让页面的 UI 与 URL 同步。
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/e7a22f62-025c-4067-b364-7de89b0cbd0a)
 
-### 二．封装路由
+### 二．使用 createBrowserRouter 封装路由
 
 #### 1.在 src 下新建一个路由 router 文件夹，新建 index.tsx 文件，用来存放路由
 
@@ -77,3 +77,20 @@ RouterProvider:是一个 router 的开始，所有路由对象都会传到这个
 结果：
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/ca23b3c0-13f6-4d25-b87f-152fb9cac607)
+
+### 三.自定义封装路由组件
+
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/46d79689-d40f-4cb3-8650-e52d9f8122ce)
+
+#### 2 index.tsx:封装路由
+
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/efd9c5d6-cded-45d9-b091-a99180e85cfc)
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/1dee7e59-b642-4148-9154-288ab36de515)
+
+#### 3 在 props.ts 文件中定义数据类型
+
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/5416b2a9-d203-4523-bbf3-9754852b8119)
+
+#### 4 在 App.tsx 文件引入 Router 组件
+
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/4f660678-a10c-4241-bc0a-0c2d319055bd)
