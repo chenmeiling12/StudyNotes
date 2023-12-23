@@ -44,6 +44,8 @@ pr 创建成功
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/0e6e4a96-f954-450c-8253-3c89c5a8c770)
 
+拉取完重新安装依赖：`npm i`或 `yarn`
+
 #### 8.在本地写代码
 
 #### 9.查看本地修改过的代码
@@ -53,6 +55,8 @@ pr 创建成功
 #### 10.提交—>推送
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/a78a3a06-b9ea-4bfa-bffe-d3034ce86bee)
+![Alt text](image.png)
+![Alt text](image-1.png)
 
 pr
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/76e1d576-bdcd-468c-bff8-10d6e1f13bea)
