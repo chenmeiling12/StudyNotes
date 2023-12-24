@@ -55,8 +55,8 @@ pr 创建成功
 #### 10.提交—>推送
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/a78a3a06-b9ea-4bfa-bffe-d3034ce86bee)
-![Alt text](image.png)
-![Alt text](image-1.png)
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/cf6adb2f-191d-463d-a991-092d1c729d71)
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/13183582-f8f0-42b2-a0ed-685c54d42667)
 
 pr
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/76e1d576-bdcd-468c-bff8-10d6e1f13bea)
