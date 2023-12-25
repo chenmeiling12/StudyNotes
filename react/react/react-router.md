@@ -84,13 +84,16 @@ RouterProvider:是一个 router 的开始，所有路由对象都会传到这个
 
 #### 2 index.tsx:封装路由
 
-![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/efd9c5d6-cded-45d9-b091-a99180e85cfc)
-![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/1dee7e59-b642-4148-9154-288ab36de515)
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/3530c92b-2acc-49b9-b7d2-4ce440bcac3c)
 
 #### 3 在 props.ts 文件中定义数据类型
 
-![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/5416b2a9-d203-4523-bbf3-9754852b8119)
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/1afdccd4-1ad2-43b5-a7d2-dc19c24575d7)
 
 #### 4 在 App.tsx 文件引入 Router 组件
 
-![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/4f660678-a10c-4241-bc0a-0c2d319055bd)
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/71d08ca0-c627-4421-97c2-9a909407d780)
+
+#### 5.使用
+
+![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/684756b9-ee45-441c-8893-a80ce719780b)
