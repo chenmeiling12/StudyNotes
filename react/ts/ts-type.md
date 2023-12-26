@@ -91,3 +91,59 @@ constructor：对创建该对象的函数的引用。
 
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/476e1944-c6fa-414f-931e-608317ddf55f)
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/37552509-c0e9-40c5-880b-725b83f2c721)
+
+#### 4.数组方法
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-420dccd2d89cf4cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### （1）数组—>字符串
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-5d781387c11a8688.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### （2）every 与 some
+
+相同点：
+
+every 和 some 都有三个参数，即 item-当前项，index-当前项的索引值，array-数组本身；都可循环遍历数组。
+
+不同点：
+
+every：相当于逻辑关系中的且，只有所有参数都满足条件时，才返回 true，一旦有一个不满足，则逻辑中断，返回 false。
+
+some：相当于逻辑关系中的或，只要有一个参数满足条件，就中断遍历，返回 true，若遍历完所有参数，没有符合的项，返回 false。
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-cd8e9f4e19cbf3d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### （3）map 和 forEach
+
+相同点:
+
+(1)都是循环遍历数组中的每一项。
+
+(2)都有三个参数，分别为 item(当前每一项)，index(索引值)，arr(原数组)。
+
+(3)匿名函数中的 this 都是指向 window。
+
+不同点：
+
+(1) map()会分配内存空间存储新数组并返回，forEach()不会返回数据。
+
+(2)forEach 方法没有返回值，是 undefined，不能使用 return，仅用于遍历数组执行操作。
+
+(3)map 方法返回一个新的数组，其中包含对每个元素执行操作后的结果。
+
+(4)map 速度比 foreach 快。
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-b47a132d6825673d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### (4)reduce 与 reduceRight
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-c877b28403a62c9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### (5)filter
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-f10ba1c0d0fe08d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### (6)增删改
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-bea4bcf2ca0c67e3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
