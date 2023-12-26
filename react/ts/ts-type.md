@@ -74,7 +74,7 @@ constructor：对创建该对象的函数的引用。
 
 方法
 
-![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/75d67032-9b0f-4b34-9120-8036fbcc3af5)
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-ef9dc51f415fb3e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 三．数组
 
