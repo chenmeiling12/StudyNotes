@@ -13,7 +13,7 @@ const handClick = () => {
 内联的事件处理函数：
 
 ```
-<button onClick={() => {console.log("点击"); }} >点击</button>
+<button onClick={() => {console.log("点击") }} >点击</button>
 ```
 
 捕获阶段执行事件:` onClickCapture={handClickCapture}`
@@ -21,7 +21,7 @@ const handClick = () => {
 
 ### 二.传递参数
 
-#### 1.普通传惨
+#### 1.普通传参
 
 ```
 <button onClick={(e: any) => handClick(e, "aa")}>点击</button>
