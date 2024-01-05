@@ -66,8 +66,11 @@ const handClick = (e: any) => {
 ### 三.在事件处理函数中读取 props（参数）
 
 直接访问组件的 props
+
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-63878c84cbb3cb66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 将事件处理函数作为 props 传递
+
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-5b42e24ce1f37acb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 四.事件传播
