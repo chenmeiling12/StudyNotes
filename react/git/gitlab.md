@@ -61,7 +61,7 @@ pr 创建成功
 pr
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/76e1d576-bdcd-468c-bff8-10d6e1f13bea)
 
-### 如果分支比其他分支早合
+### 如果改分支比其他分支晚合
 
 #### 1.检出 master->拉取
 
