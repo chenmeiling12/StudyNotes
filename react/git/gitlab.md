@@ -67,7 +67,7 @@ pr
 
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-781219a2ee909cc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#### 2.检出 grocery
+#### 2.检出 grocery,右击master，点击合并 grocery 至 master。
 
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-c60ff1d026754bc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
