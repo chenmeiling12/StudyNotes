@@ -60,3 +60,19 @@ pr 创建成功
 
 pr
 ![image](https://github.com/chenmeiling12/StudyNotes/assets/108569295/76e1d576-bdcd-468c-bff8-10d6e1f13bea)
+
+### 如果该分支比其他分支晚合
+
+#### 1.检出 master->拉取
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-781219a2ee909cc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+#### 2.检出 grocery
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-c60ff1d026754bc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+#### 3.点击推送
+
+#### 4.在 gitlab 查看
+
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-72c7150416ee36e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
