@@ -1,4 +1,4 @@
-### 发布版本
+### tag 版本
 
 #### 1.添加一个版本，与里程碑一样。
 
@@ -13,7 +13,8 @@
 #### 3.到 Octopus Deploy（CD）的创建 relases
 
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-949db300f1aa0bae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/29487578-3fe8e0d20620661b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-842ed90c95e446c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/29487578-55f54e5f493a0988.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 4.发 test 环境
 
