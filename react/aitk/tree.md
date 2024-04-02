@@ -1,4 +1,4 @@
-####1.定义树类型
+#### 1.定义树类型
 
 ```
 export interface ITreepProps {
@@ -8,7 +8,7 @@ export interface ITreepProps {
 }
 ```
 
-####2.树组件
+#### 2.树组件
 onExpand: 处理当树节点展开时的逻辑。
 expandedKeys: 含当前*展开*的节点键值的数组。
 autoExpandParent: 布尔值，当展开子节点时，是否自动展开父节点。
