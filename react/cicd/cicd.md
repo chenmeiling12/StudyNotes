@@ -61,7 +61,7 @@ Process 搭建：DEPLOY KUBERNETES CONTAINERS（Deploy web）
 
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-82a7fefff4042969.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-##### 2 .配置 process
+##### 2.配置 process
 
 配置 DEPLOY KUBERNETES CONTAINERS （deplaoy web ）
 ![image.png](https://upload-images.jianshu.io/upload_images/29487578-098e569b89b10881.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
