@@ -42,7 +42,7 @@ const formData = new FormData();
 excelFile && formData.append("file", excelFile);
 ```
 
-### 4.定义文件上传接口
+4.定义文件上传接口
 
 ```
 export const PostFile = async (categoryId: string, data: FormData) => {
