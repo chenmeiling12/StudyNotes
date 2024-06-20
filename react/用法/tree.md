@@ -158,6 +158,7 @@ export interface ITreeData {
 搜索功能
 
 当搜索值为空时，展开节点的 set 为空，并使用 return 继续执行一下代码；
+
 当搜索值不为空:
 
 1）定义一个临时存储符合搜索条件的的 key 的变量 filteredKeys
@@ -212,7 +213,9 @@ const onTreeSearch = () => {
 ```
 
 ####2.搜索高亮
+
 使用 react-highlight-words 实现
+
 <Tree/>添加属性
 
 ```
