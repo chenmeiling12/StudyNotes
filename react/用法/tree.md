@@ -159,6 +159,7 @@ export interface ITreeData {
 
 当搜索值为空时，展开节点的 set 为空，并使用 return 继续执行一下代码；
 当搜索值不为空:
+
 1）定义一个临时存储符合搜索条件的的 key 的变量 filteredKeys
 
 2）定义一个递归过滤函数，使用 for...of 遍历 treeData 获取当前树节点 node，然后拿当前节点的 title 值去查看，使用 includes 判断 node.title 是否含有搜索的字符，有的话把当前节点的 key 值 push 进 filteredKeys；
@@ -235,6 +236,7 @@ titleRender={(nodeData) => {
 高亮搜索
 
 高亮的搜索新增节点的过滤
+
 1）新增存储符合搜索条件的节点及其子节点的变量 filteredTree
 
 2）封装一个遍历和过滤每个节点及其子节点的方法 filterNodes(),先使用 forEach 循环遍历树结构，然后定义一个判断是否含有某个节点的键变量 inFilteredTree，再封装一个方法用于递归检查 filteredTree 中是否已经包含某个节点的键，如果不存在，则把该节点的值 push 进 filteredTree，最后把 filteredTree set 进 filterTreeData 即可
