@@ -94,7 +94,7 @@ export interface ITreeData {
 
 ### 二.树的多选和展开
 
-<Tree/>添加属性
+ <Tree /> 添加属性
 
 ```
        checkable
