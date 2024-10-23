@@ -1,5 +1,8 @@
-一.在主应用上
+## 一.在主应用上
+
 1.定义无界全局变量(/src/global.d.ts)
+
+可用于主页面
 
 ```
 interface Window {
@@ -114,6 +117,7 @@ const handleJump = (type: AutoProjectEnum, toBack: boolean = false) => {
         sync={true} //同步机制
         alive={true} //子应用的状态存活
         fiber={true} //优化 React 渲染性能
+//传递给子web的参数，在子web上的定义微前端全局变量去接收它。
         props={{
           userName: userName,
           token: localStorage.getItem(tokenKey),
