@@ -58,7 +58,9 @@ const handleJump = (type: AutoProjectEnum, toBack: boolean = false) => {
     }
   };
 ```
+
 3.控制web应用打开的方式
+
 ```
   // 当url和name发生变化时，在新的标签页打开后台，
   useUpdateEffect(() => {
@@ -71,7 +73,9 @@ const handleJump = (type: AutoProjectEnum, toBack: boolean = false) => {
 ```
 
 定义一个同步路由页面
+
 当一个页面存在多个子应用时无界支持所有子应用路由同步
+
 ```
  const navigate = useNavigate();
 
@@ -88,8 +92,9 @@ const handleJump = (type: AutoProjectEnum, toBack: boolean = false) => {
     if (isSignout) {
       localStorage.setItem(userNameKey, "");
       localStorage.setItem(tokenKey, "");
-      localStorage.setItem(wujieAppKey, "");
     }
+
+    localStorage.setItem(wujieAppKey, "");
 
     navigate("/");
   };
@@ -107,6 +112,27 @@ const handleJump = (type: AutoProjectEnum, toBack: boolean = false) => {
       name: params.name,
     });
   }, [location]);
+
+//监听token，userName变化，实时更新状态。
+
+useEffect(() => {
+    const handleStorageChange = () => {
+      try {
+        const newToken = localStorage.getItem(tokenKey);
+
+        const newUserName = userName;
+
+        bus.$emit("token_refresh", newToken, newUserName);//触发事件
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+
+    return () => window.removeEventListener("storage", handleStorageChange);
+  }, []);
+
 ```
 ```
 <WujieReact
